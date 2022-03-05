@@ -3,7 +3,7 @@
 #include <string.h>
 #include <time.h>
 
-unsigned char tape[10000] = {0};
+unsigned char tape[10000] = {0}; //You can change this to better fit your program's size
 unsigned char *ptr = tape;
 
 int stack1[10000] = {0};
