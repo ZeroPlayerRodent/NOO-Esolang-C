@@ -95,7 +95,7 @@ int main(int argc, char **argv) {
         } if (*ptr == 6) {
             push1(0);
         } if (*ptr == 7) {
-            randomnumber = rand() % stack1[top1];
+            randomnumber = rand() % acc;
             top1 = top1 - randomnumber;
         } if (*ptr == 8) {
             ptr += acc;
